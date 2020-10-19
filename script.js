@@ -77,6 +77,7 @@ const handleReset = (e) => {
      cellDiv.classList.remove('x')
      cellDiv.classList.remove('o')
     }
+    gameIsLive = true;
 }
 
 const handleCellClick = (e) => {
